@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Order cakes form:</h1>
+    <!--The default form submission is GET -->
+    <form action="thanku.html">
+      <label>Name:</label>
+      <input placeholder="Enter your full name" type="text" name="txt_name" />
+      <br />
+      <label>Phone:</label>
+      <input type="tel" name="txt_phone" />
+      <br />
+      <label> Chose cake</label>
+      <select name="cake">
+        <option value="Vanilla">עוגת וניל</option>
+        <option value="Oreange">עוגת תפוז</option>
+        <option value="Lemon">עוגת לימון</option>
+      </select>
+      <br />
+      <input type="checkbox" name="check" required />
+      <label>I conrirm my order</label>
+      <br />
+      <label>Tip amount:</label>
+      <input type="radio" name="tip" value="0" />
+      <label>No tip</label>
+      <input type="radio" name="tip" value="5" />
+      <label>5 USD</label>
+      <input type="radio" name="tip" value="10" />
+      <label>10 USD</label>
+      <br />
+      <label>Comment:</label>
+      <br />
+      <textarea name="comment"></textarea>
+
+      <br />
+      <br />
+      <button>Order cake</button>
+    </form>
+  </body>
+</html>
